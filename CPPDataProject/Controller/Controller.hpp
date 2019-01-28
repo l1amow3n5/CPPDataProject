@@ -9,6 +9,16 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
+#include <iostream>
+using namespace std;
+
+class Controller
+{
+    
+public:
+    void start();
+};
+
 #include <stdio.h>
 
 #endif /* Controller_hpp */
