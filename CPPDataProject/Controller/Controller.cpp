@@ -20,6 +20,6 @@ void Controller :: usingNodes()
     Node<string> wordHolder("words can be stored too");
     cout << mine.getData() << endl;
     cout << wordHolder.getData() << endl;
-    wordHolder.setData("replaced text");
+    wordHolder.setData("Who you callin pinhead");
     cout << wordHolder.getData() << endl;
 }
