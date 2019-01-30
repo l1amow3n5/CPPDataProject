@@ -15,7 +15,7 @@ template <class Type>
 class LinearNode : public Node<Type>
 {
 private:
-    LInearNode<Type> * next;
+    LinearNode<Type> * next;
 public:
     LinearNode();
     LinearNode(Type data);
@@ -25,7 +25,7 @@ public:
 };
 
 template <class Type>
-LinearNode<Type> :: LinearNode() : Node()
+LinearNode<Type> :: LinearNode() : Node<Type>()
 {}
 
 template <class Type>
