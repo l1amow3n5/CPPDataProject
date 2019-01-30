@@ -30,6 +30,7 @@
 		F00539EE21FF8BEB008D2114 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		F00539F021FF912B008D2114 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		F014FB14220232F500B66458 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		F014FB1622023A0C00B66458 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		F00539E721FF8B81008D2114 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F014FB15220239F600B66458 /* Linear */,
 				F014FB12220226AD00B66458 /* Nodes */,
 			);
 			path = Model;
@@ -109,6 +111,14 @@
 				F014FB14220232F500B66458 /* LinearNode.hpp */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		F014FB15220239F600B66458 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				F014FB1622023A0C00B66458 /* Array.hpp */,
+			);
+			path = Linear;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
