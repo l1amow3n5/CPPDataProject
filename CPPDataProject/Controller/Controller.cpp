@@ -13,6 +13,7 @@ void Controller :: start()
 {
     cout << "Welcome to the Data Structures App." << endl;
     usingNodes();
+    testFiles();
     
 }
 
@@ -24,5 +25,17 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("Who you callin pinhead");
     cout << wordHolder.getData() << endl;
+    
+    
+}
+
+void testFiles()
+{
+    vector<CrimeData> Crime = FileController :: readCrimeDataToVector("/Users/lowe1672/Documents/C++ Projects/CPPDataProject/CPPDataProject/Resources/crime.csv");
+    
+    for (int i = 234; i < 256; i++)
+    {
+        cout << i << ": contents are: " << Crime[i] << endl;
+    }
 }
 

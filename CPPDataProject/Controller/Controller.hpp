@@ -27,15 +27,6 @@ public:
     void start();
 };
 
-void testFiles()
-{
-    vector<CrimeData> crimeVector;
-    
-    for (int i = 234; i < 256; i++)
-    {
-        cout << i << ": contents are: " << crimeVector[i] << endl;
-    }
-}
 
 #include <stdio.h>
 
