@@ -43,6 +43,8 @@
 		F09BC231220A1DEE008D65E6 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
 		F09BC232220A1DEE008D65E6 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		F09BC233220A1DEE008D65E6 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		F09BC236220A243B008D65E6 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
+		F09BC237220A243C008D65E6 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,8 @@
 		F00539EA21FF8B9B008D2114 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F09BC237220A243C008D65E6 /* crime.csv */,
+				F09BC236220A243B008D65E6 /* music.csv */,
 				F09BC230220A1DEE008D65E6 /* CrimeData.cpp */,
 				F09BC232220A1DEE008D65E6 /* CrimeData.hpp */,
 				F09BC233220A1DEE008D65E6 /* Music.cpp */,

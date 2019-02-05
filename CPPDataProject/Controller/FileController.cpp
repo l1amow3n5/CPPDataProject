@@ -22,7 +22,7 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
         
         while (!dataFile.eof())
         {
-            getline(dataFile, currentCSVLine, '/r');
+            getline(dataFile, currentCSVLine, '\r');
             if(rowCount != 0)
             {
                 if(currentCSVLine.length() != 0)
@@ -56,7 +56,7 @@ vector<Music> FileController :: MusicDataToVector(string filename)
         
         while (!dataFile.eof())
         {
-            getline(dataFile, currentCSVLine, '/r');
+            getline(dataFile, currentCSVLine, '\r');
             if(rowCount != 0)
             {
                 if(currentCSVLine.length() != 0)

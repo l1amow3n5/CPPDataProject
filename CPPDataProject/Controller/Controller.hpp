@@ -12,7 +12,12 @@
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
 #include "../Model/Nodes/LinearNode.hpp"
+#include "FileController.hpp"
+
 using namespace std;
+
+void testFiles();
+
 
 class Controller
 {
@@ -21,6 +26,16 @@ private:
 public:
     void start();
 };
+
+void testFiles()
+{
+    vector<CrimeData> crimeVector;
+    
+    for (int i = 234; i < 256; i++)
+    {
+        cout << i << ": contents are: " << crimeVector[i] << endl;
+    }
+}
 
 #include <stdio.h>
 
