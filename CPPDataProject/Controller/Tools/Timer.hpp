@@ -16,7 +16,7 @@
 class Timer
 {
 private:
-    clock_t exectutionTime;
+    clock_t executionTime;
     
 public:
     Timer();
