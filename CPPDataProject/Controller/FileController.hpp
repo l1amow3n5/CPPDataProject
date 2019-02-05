@@ -23,7 +23,7 @@ class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
-    static vector<Music> musicDataToVecotr(string filename);
+    static vector<Music> MusicDataToVector(string filename);
     
 };
 

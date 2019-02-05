@@ -11,6 +11,8 @@
 		F00539EF21FF8BEB008D2114 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00539ED21FF8BEB008D2114 /* Controller.cpp */; };
 		F09BC22C220A1505008D65E6 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC22A220A1505008D65E6 /* Timer.cpp */; };
 		F09BC22F220A1972008D65E6 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC22D220A1972008D65E6 /* FileController.cpp */; };
+		F09BC234220A1DEE008D65E6 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC230220A1DEE008D65E6 /* CrimeData.cpp */; };
+		F09BC235220A1DEE008D65E6 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC233220A1DEE008D65E6 /* Music.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		F09BC22B220A1505008D65E6 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F09BC22D220A1972008D65E6 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		F09BC22E220A1972008D65E6 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
+		F09BC230220A1DEE008D65E6 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		F09BC231220A1DEE008D65E6 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		F09BC232220A1DEE008D65E6 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		F09BC233220A1DEE008D65E6 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 		F00539EA21FF8B9B008D2114 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F09BC230220A1DEE008D65E6 /* CrimeData.cpp */,
+				F09BC232220A1DEE008D65E6 /* CrimeData.hpp */,
+				F09BC233220A1DEE008D65E6 /* Music.cpp */,
+				F09BC231220A1DEE008D65E6 /* Music.hpp */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09BC22C220A1505008D65E6 /* Timer.cpp in Sources */,
+				F09BC234220A1DEE008D65E6 /* CrimeData.cpp in Sources */,
 				F00539EC21FF8BD7008D2114 /* Runner.cpp in Sources */,
+				F09BC235220A1DEE008D65E6 /* Music.cpp in Sources */,
 				F00539EF21FF8BEB008D2114 /* Controller.cpp in Sources */,
 				F09BC22F220A1972008D65E6 /* FileController.cpp in Sources */,
 			);

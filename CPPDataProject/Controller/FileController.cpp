@@ -74,5 +74,5 @@ vector<Music> FileController :: MusicDataToVector(string filename)
         cerr << "NO FILE" << endl;
     }
     
-    return musicVector;
+    return MusicVector;
 }
