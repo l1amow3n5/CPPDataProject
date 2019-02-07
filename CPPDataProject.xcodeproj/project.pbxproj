@@ -38,6 +38,7 @@
 		F0177439220CB8FB00474AB3 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		F017743A220CB8FB00474AB3 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
 		F017743C220CBA8500474AB3 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		F017743D220CC76A00474AB3 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F09BC22A220A1505008D65E6 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F09BC22B220A1505008D65E6 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F09BC22D220A1972008D65E6 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 			children = (
 				F014FB1622023A0C00B66458 /* Array.hpp */,
 				F017743C220CBA8500474AB3 /* List.hpp */,
+				F017743D220CC76A00474AB3 /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
