@@ -30,10 +30,10 @@ public:
     LinearNode<Type> * getEnd;
     
     //Structor Methods
-    void add(Type item);
-    void addAtIndex(int index, Type item);
-    Type getFromIndex(int index);
-    Type remove(int index);
+    virtual void add(Type item);
+    virtual void addAtIndex(int index, Type item);
+    virtual Type getFromIndex(int index);
+    virtual Type remove(int index);
     //Type setAtIndex (int index, Type item);
     bool contains(Type item);
 };
@@ -127,24 +127,6 @@ Type LinkedList<Type> :: getFromIndex(int index)
     return data;
 }
 
-template <class Type>
-bool LinkedList<Type> :: contains(Type thingToFind)
-{
-    bool exists = false;
-    
-    LinearNode<Type> * searchPointer = front;
-    
-    for (int index = 0; index < getSize(); index++)
-    {
-        if (searchPointer->getData() == thingToFind)
-        {
-            return true;
-        }
-        searchPointer = searchPointer->getNextNode();
-    }
-    
-    return exists;
-}
 
 template <class Type>
 Type LinkedList<Type> :: remove(int index)
@@ -207,4 +189,24 @@ int LinkedList<Type> :: getSize() const
 {
     return this->size;
 }
+
+template <class Type>
+bool LinkedList<Type> :: contains(Type thingToFind)
+{
+    bool exists = false;
+    
+    LinearNode<Type> * searchPointer = front;
+    
+    for (int index = 0; index < getSize(); index++)
+    {
+        if (searchPointer->getData() == thingToFind)
+        {
+            return true;
+        }
+        searchPointer = searchPointer->getNextNode();
+    }
+    
+    return exists;
+}
+
 #endif /* LinkedList_h */
