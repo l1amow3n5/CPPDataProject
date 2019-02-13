@@ -43,7 +43,7 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
     return crimeVector;
 }
 
-vector<Music> FileController :: MusicDataToVector(string filename)
+vector<Music> FileController :: musicDataToVector(string filename)
 {
     vector<Music> MusicVector;
     string currentCSVLine;
