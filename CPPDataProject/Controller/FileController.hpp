@@ -11,6 +11,12 @@
 
 #include "../Resources/CrimeData.hpp"
 #include "../Resources/Music.hpp"
+
+#include "../Model/Linear/Array.hpp"
+#include "../Model/Linear/LinkedList.hpp"
+
+//#include "../Model/NonLinear/BinarySearchTree.hpp"
+
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -24,6 +30,14 @@ class FileController
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
     static vector<Music> MusicDataToVector(string filename);
+    
+    static Array<Music> musicDataToArray(string filename);
+    
+    static LinkedList<CrimeData> readDataToList(string filename);
+    static LinkedList<Music> musicDataToList(string filename);
+    
+    //static BinarySearchTree<CrimeData> readDataToTree(string filename);
+    //static BinarySearchTree<Music> musicDataToTree(string filename)
     
 };
 
