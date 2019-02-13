@@ -96,7 +96,7 @@ Type & Array<Type> :: operator [] (int index)
 template <class Type>
 Type Array<Type> :: operator [] (int index) const
 {
-    assert(index >== && index < size);
+    assert(index >= 0 && index < size);
     return internalArray[index];
 }
 

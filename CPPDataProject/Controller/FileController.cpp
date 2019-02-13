@@ -101,7 +101,7 @@ LinkedList<CrimeData> FileController :: readDataToList(string fileName)
                 if(currentCSVLine.length() != 0)
                    {
                        CrimeData row(currentCSVLine);
-                       crimes.add(row)
+                       crimes.add(row);
                    }
             }
             rowCount++;
