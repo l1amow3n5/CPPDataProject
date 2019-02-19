@@ -12,6 +12,7 @@
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
 #include "../Model/Nodes/LinearNode.hpp"
+#include "../Controller/FileController.hpp"
 #include "FileController.hpp"
 
 using namespace std;
