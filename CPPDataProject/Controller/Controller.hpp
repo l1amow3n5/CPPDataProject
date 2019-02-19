@@ -14,6 +14,7 @@
 #include "../Model/Nodes/LinearNode.hpp"
 #include "../Controller/FileController.hpp"
 #include "FileController.hpp"
+#include "../Testers/LinearTester.hpp"
 
 using namespace std;
 
@@ -24,6 +25,7 @@ class Controller
 {
 private:
     void usingNodes();
+    void testLinear();
 public:
     void start();
 };
