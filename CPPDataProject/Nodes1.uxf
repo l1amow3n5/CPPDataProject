@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>10</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>						Node &lt;Type&gt;
+--
+- data : Type
+--
++ Node() : constructor
++ Node(Type) : constructor
++ getData() : Type
++ setData(Type) : void
+bg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>270</y>
+      <w>450</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>LinearNode&lt;Type&gt;
+--
+- next : LinearNode&lt;Type&gt;*
+--
++ LinearNode
++ LinearNode&lt;Type&gt;(Type) : constructor
++ LinearNode&lt;Type&gt;(Type,LinearNode&lt;Type&gt;*) : constructor
++ getNext() : LinearNode&lt;Type&gt;*
++ setNext(LinearNode&lt;Type&gt;*) : void
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>170</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>60</y>
+      <w>330</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Array&lt;Type&gt;
+--
+- size : int
+- internalArray : [Type]
+--
++ Array(int) : constructor
++ getFromIndex(int) : Type
++ setAtIndex(int, Type) : void
++ getSize() : int 
++ operator [] : Type/Type&amp;
++ operator = : Type&amp;
++ ~Array() : destructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>220</y>
+      <w>400</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>/List&lt;Type&gt;/
+--
+# size : int 
+--
+List Structure methods
+getFromIndex(int) : Type
+add(Type) : void 
+addAtIndex(int, Type) : void
+remove(int) : Type
+List Accessors
+getSize() : int
+getFront() : LinearNode&lt;Type&gt; *
+getEnd() : LinearNode&lt;Type&gt; *</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>700</y>
+      <w>330</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>LinkedList&lt;Type&gt;
+--
+# front : LinearNode&lt;Type&gt; *
+# end : LinearNode&lt;Type&gt; *
+--
++ LinkedList() : constructor
++ ~LinkedList() : destructor
+List Structure methods
++ add(Type item) : void
++ getFromIndex(int) : Type
++ addAtIndex(int, Type) : void
++ remove(int) : Type
++ contains(Type) : bool
++ setAtIndex(int, Type) : Type
+List Accessors
++ getSize() : int 
++ getFront() : LinearNode&lt;Type&gt; *
++ getEnd() : LinearNode&lt;Type&gt; *
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>690</y>
+      <w>290</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Queue&lt;Type&gt; 
+--
++ Queue() : constructor
++ ~Queue() : destructor
+
++ enqueue(Type) : void 
++ dequeue() : Type
++ peek() : Type
++ clear() : void 
+
++ add(Type item) : void 
++ addAtIndex(int index, Type item) : void 
++ remove(int index) : Type
++ getFronIndex(int index) : Type
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>680</y>
+      <w>290</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Stack&lt;Type&gt;
+--
++Stack() : constructor
++ ~Stack() : destructor 
+
++ push(Type) : void 
++ pop() : Type 
++ peek() : Type
+
++ add(Type item) : void 
++ addAtIndex(int index, Type item) : void 
++ remove(int index) : Type
++ getFromIndex(int index) : Type
+bg=green
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>440</y>
+      <w>670</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+public </panel_attributes>
+    <additional_attributes>650.0;10.0;650.0;210.0;10.0;210.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>640</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>640</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;10.0;230.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>360</y>
+      <w>380</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;360.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>50</y>
+      <w>260</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Crime Data
+--
+-Too Many
+--
++ CrimeData() : constructor
++ Crimedata(string) : constructor
++ getXXX() : various
++ == : bool
++ * : ostream
++ &lt; : bool
++ &gt; : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>330</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Music
+--
+-Too Many
+--
++ Music() : constructor
++ Music(string) : constructor
++ getXXX() : various
++ == : bool
++ * : ostream
++ &lt; : bool
++ &gt; : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
