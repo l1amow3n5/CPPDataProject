@@ -41,6 +41,7 @@
 		F017743C220CBA8500474AB3 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		F017743D220CC76A00474AB3 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F08D8C47221F27A1001D49B5 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		F08D8C48221F2FF1001D49B5 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		F09BC22A220A1505008D65E6 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		F09BC22B220A1505008D65E6 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F09BC22D220A1972008D65E6 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 				F017743D220CC76A00474AB3 /* LinkedList.hpp */,
 				F0F3547D22120E92007436D1 /* Stack.hpp */,
 				F0C3084E2214A6C2004E1941 /* Queue.hpp */,
+				F08D8C48221F2FF1001D49B5 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
