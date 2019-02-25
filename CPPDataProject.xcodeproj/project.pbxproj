@@ -52,7 +52,7 @@
 		F0C3084E2214A6C2004E1941 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F0C308502214AEDC004E1941 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		F0C308512214AEDC004E1941 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
-		F0F3547C2211FFD3007436D1 /* music (2).csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "music (2).csv"; sourceTree = "<group>"; };
+		F0C65B98222487D000677EAE /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		F0F3547D22120E92007436D1 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,8 +127,8 @@
 		F00539EA21FF8B9B008D2114 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F0C65B98222487D000677EAE /* music.csv */,
 				F09BC237220A243C008D65E6 /* crime.csv */,
-				F0F3547C2211FFD3007436D1 /* music (2).csv */,
 				F09BC230220A1DEE008D65E6 /* CrimeData.cpp */,
 				F09BC232220A1DEE008D65E6 /* CrimeData.hpp */,
 				F0177439220CB8FB00474AB3 /* Music.cpp */,

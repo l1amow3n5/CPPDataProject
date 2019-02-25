@@ -27,11 +27,11 @@ void LinearTester :: testVsSTL()
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
     musicSTL.startTimer();
-    vector<Music> tunez = FileController :: musicDataToVector("/Users/lowe1672/Documents/C++ Projects/CPPDataProject/CPPDataProject/Resources/music (2).csv");
+    vector<Music> tunez = FileController :: musicDataToVector("/Users/lowe1672/Documents/C++ Projects/CPPDataProject/CPPDataProject/Resources/music.csv");
     musicSTL.stopTimer();
     
     musicOOP.startTimer();
-    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/lowe1672/Documents/C++ Projects/CPPDataProject/CPPDataProject/Resources/music (2).csv");
+    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/lowe1672/Documents/C++ Projects/CPPDataProject/CPPDataProject/Resources/music.csv");
     musicOOP.stopTimer();
     
     cout << "This is the STL Read time: " << endl;
