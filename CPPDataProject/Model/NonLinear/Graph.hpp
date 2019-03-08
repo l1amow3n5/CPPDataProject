@@ -126,5 +126,28 @@ void Graph<Type> :: addEdgeUndirected(int source, int target)
     adjacencyMatrix[target][source] = true;
 }
 
-template <class Type> 
+template <class Type>
+void Graph<Type> :: removeEdge(int source, int target)
+{
+    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
+    adjacencyMatrix[source][target] = false;
+}
+
+template <class Type>
+void Graph<Type> :: removeEdgeUndirected(int source, int target)
+{
+    assert(source >= 0 && source < vertexCount && target >= target < vertexCount);
+    adjacencyCostMatrix[source][target] = false;
+    adjacencyCostMatrix[target][source] = false;
+}
+
+template <class Type>
+void Graph<Type> :: removeEdgeCost(int source, int target)
+{
+    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
+    weightCostMatrix[source][target] = 0;
+    weightCostMatrix[target][source] = 0;
+    
+}
+
 #endif /* Graph_h */
