@@ -13,6 +13,7 @@
 		F09BC22C220A1505008D65E6 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC22A220A1505008D65E6 /* Timer.cpp */; };
 		F09BC22F220A1972008D65E6 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC22D220A1972008D65E6 /* FileController.cpp */; };
 		F09BC234220A1DEE008D65E6 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F09BC230220A1DEE008D65E6 /* CrimeData.cpp */; };
+		F0B34484224010A0005E8EDA /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0B34482224010A0005E8EDA /* GraphTester.cpp */; };
 		F0C308522214AEDC004E1941 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0C308502214AEDC004E1941 /* LinearTester.cpp */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		F09BC230220A1DEE008D65E6 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		F09BC232220A1DEE008D65E6 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		F09BC237220A243C008D65E6 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		F0B34482224010A0005E8EDA /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		F0B34483224010A0005E8EDA /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		F0C3084E2214A6C2004E1941 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F0C308502214AEDC004E1941 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		F0C308512214AEDC004E1941 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 			children = (
 				F0C308502214AEDC004E1941 /* LinearTester.cpp */,
 				F0C308512214AEDC004E1941 /* LinearTester.hpp */,
+				F0B34482224010A0005E8EDA /* GraphTester.cpp */,
+				F0B34483224010A0005E8EDA /* GraphTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09BC22C220A1505008D65E6 /* Timer.cpp in Sources */,
+				F0B34484224010A0005E8EDA /* GraphTester.cpp in Sources */,
 				F09BC234220A1DEE008D65E6 /* CrimeData.cpp in Sources */,
 				F00539EC21FF8BD7008D2114 /* Runner.cpp in Sources */,
 				F00539EF21FF8BEB008D2114 /* Controller.cpp in Sources */,

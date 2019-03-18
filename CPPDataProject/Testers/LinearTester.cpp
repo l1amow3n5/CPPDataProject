@@ -86,6 +86,7 @@ void LinearTester :: testVsSTL()
 void LinearTester :: testVsStack()
 {
     
+    
 }
 
 void LinearTester :: testVsQueue()
