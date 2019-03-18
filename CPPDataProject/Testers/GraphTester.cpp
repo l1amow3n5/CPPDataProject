@@ -131,7 +131,13 @@ void GraphTester :: setup()
 
 void GraphTester :: compareTraversals()
 {
-    
+    for (int index = 0; index < puzzle.size(); index++)
+    {
+        cout << "Breadth Index: " << index << endl;
+        puzzle.breadthFirstTraversal(puzzle, index);
+        cout << "Depth Index: " <<index << endl;
+        puzzle.depthFirstTraversal(puzzle, index);
+    }
 }
 
 void GraphTester :: findCheapestTraversal()

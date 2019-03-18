@@ -8,13 +8,15 @@
 
 #include "Controller.hpp"
 #include "FileController.hpp"
+#include "../Testers/GraphTester.hpp"
 
 void Controller :: start()
 {
     cout << "Welcome to the Data Structures App." << endl;
-    usingNodes();
-    testFiles();
-    testLinear();
+    //usingNodes();
+    //testFiles();
+    //testLinear();
+    testGraphs();
     
 }
 
@@ -44,4 +46,10 @@ void Controller :: testLinear()
 {
     LinearTester lookieHere;
     lookieHere.testVsSTL();
+}
+
+void Controller :: testGraphs()
+{
+    GraphTester puzzle;
+    puzzle.testGraphs();
 }

@@ -15,6 +15,7 @@
 #include "../Controller/FileController.hpp"
 #include "FileController.hpp"
 #include "../Testers/LinearTester.hpp"
+#include <stdio.h>
 
 using namespace std;
 
@@ -26,11 +27,12 @@ class Controller
 private:
     void usingNodes();
     void testLinear();
+    void testGraphs();
 public:
     void start();
 };
 
 
-#include <stdio.h>
+
 
 #endif /* Controller_hpp */
