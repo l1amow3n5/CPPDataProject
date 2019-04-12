@@ -16,6 +16,7 @@
 #include "FileController.hpp"
 #include "../Testers/LinearTester.hpp"
 #include <stdio.h>
+#include "../Testers/GraphTester.hpp"
 
 using namespace std;
 
