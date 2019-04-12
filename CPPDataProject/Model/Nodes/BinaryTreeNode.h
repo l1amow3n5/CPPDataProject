@@ -39,4 +39,50 @@ BinaryTreeNode<Type> :: BinaryTreeNode() : Node<Type>()
     rightChild = nullptr;
 }
 
+template <class Type>
+BinaryTreeNode<Type> :: BinaryTreeNode(Type) : Node<Type>()
+{
+    root = nullptr;
+    leftChild = nullptr;
+    rightChild = nullptr;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
+{
+    root = newRoot;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: setRightChild(BinaryTreeNode<Type> * right)
+{
+    this -> right = right;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
+{
+    this -> left = left;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRoodNode()
+{
+    return this->root;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRightChild()
+{
+    return this -> right;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftChild()
+{
+    return this -> left;
+}
+
+template <class Type>
+
 #endif /* BinaryTreeNode_h */
