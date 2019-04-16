@@ -66,7 +66,7 @@ void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
 }
 
 template <class Type>
-BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRoodNode()
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRootNode()
 {
     return this->root;
 }
@@ -83,6 +83,5 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftChild()
     return this -> left;
 }
 
-template <class Type>
 
 #endif /* BinaryTreeNode_h */
