@@ -56,13 +56,13 @@ void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
 template <class Type>
 void BinaryTreeNode<Type> :: setRightChild(BinaryTreeNode<Type> * right)
 {
-    this -> right = right;
+    this -> rightChild = right;
 }
 
 template <class Type>
 void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
 {
-    this -> left = left;
+    this -> leftChild = left;
 }
 
 template <class Type>
@@ -74,13 +74,13 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRootNode()
 template <class Type>
 BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRightChild()
 {
-    return this -> right;
+    return this -> rightChild;
 }
 
 template <class Type>
 BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftChild()
 {
-    return this -> left;
+    return this -> leftChild;
 }
 
 

@@ -9,10 +9,10 @@
 #ifndef Tree_h
 #define Tree_h
 
-#include "../Nodes/BinaryTreeNode.hpp"
+#include "../Nodes/BinaryTreeNode.h"
 
 template <class Type>
-class Type
+class Tree
 {
 protected:
     BinaryTreeNode<Type> * root;
@@ -26,6 +26,6 @@ public:
     virtual void insert(Type data) = 0;
     virtual bool contains(Type data) = 0;
     virtual void remove(Type data) = 0;
-}
+};
 
 #endif /* Tree_h */
