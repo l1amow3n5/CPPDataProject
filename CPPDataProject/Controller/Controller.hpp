@@ -17,6 +17,7 @@
 #include "../Testers/LinearTester.hpp"
 #include <stdio.h>
 #include "../Testers/GraphTester.hpp"
+#include "../Testers/BinaryTreeTester.hpp"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ private:
     void usingNodes();
     void testLinear();
     void testGraphs();
+    void testTree();
 public:
     void start();
 };

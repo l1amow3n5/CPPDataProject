@@ -16,7 +16,8 @@ void Controller :: start()
     //usingNodes();
     //testFiles();
     //testLinear();
-    testGraphs();
+    //testGraphs();
+    testTree();
     
 }
 
@@ -52,4 +53,11 @@ void Controller :: testGraphs()
 {
     GraphTester puzzle;
     puzzle.testGraphs();
+}
+
+void Controller :: testTree()
+{
+    BinaryTreeTester traversals;
+    traversals.treeStuff();
+    
 }
