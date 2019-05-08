@@ -17,10 +17,12 @@ void Controller :: start()
     //testFiles();
     //testLinear();
     //testGraphs();
-    //testTree();
+    testTree();
+    
+    cout << simpleHash("cat") << endl;
     int size = 101;
-    int position = simpleHash(word) % size;
-    simpleHash("cat");
+    int position = simpleHash("cat") % size;
+    cout << position << endl;
     
     
 }
