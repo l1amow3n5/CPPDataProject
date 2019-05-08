@@ -31,6 +31,7 @@ private:
     void testLinear();
     void testGraphs();
     void testTree();
+    long simpleHash(string word);
 public:
     void start();
 };

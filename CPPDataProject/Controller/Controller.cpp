@@ -17,8 +17,22 @@ void Controller :: start()
     //testFiles();
     //testLinear();
     //testGraphs();
-    testTree();
+    //testTree();
+    int size = 101;
+    int position = simpleHash(word) % size;
+    simpleHash("cat");
     
+    
+}
+
+long Controller :: simpleHash(string word)
+{
+    long hash = 0;
+    for (int index = 0; index < word.length(); index++)
+    {
+        hash += (int)(word[index]);
+    }
+    return hash;
 }
 
 void Controller :: usingNodes()
